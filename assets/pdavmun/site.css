@@ -1,0 +1,131 @@
+/*
+* Author - Sampan Verma
+* Information -
+*		This file is donated to Police DAV's (http://www.policedavjal.in/) event 
+*		MUN held at unknown date at the time of this file being issued.
+*
+*		This file is released under MIT License [July 01, 2017].
+*
+*/
+html, body{
+	height: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-top:0;
+	margin-bottom:0;
+}
+.container.container-site {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 60%;
+}
+.container-site.p{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.background-image{
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	z-index: -100;
+}
+.background-image img{
+	width:100%;
+	height:100%;
+}
+.background-block{
+	height: 100%;
+}
+.navbar > .row .col{
+	line-height: 80px;
+}
+/*.navbar .heading img{
+	width: 100%;
+	vertical-align: middle;
+}*/
+.navbar .heading a{
+	color:white;
+	font-size:36px;
+	font-family: 'Permanent Marker', cursive;
+}
+.navbar-links{
+	display: block;
+	margin:0;
+	float: right;
+}
+.navbar-links li{
+	display: inline-block;
+	margin-left:10px;
+}
+.navbar-links li a{
+	color: white;
+	font-family: "Oswald";
+	font-size: 18px;
+}
+.navbar-links li a:hover{
+	color: rgb(232, 88, 137);
+}
+.my-jumbotron{
+	color: white;
+	text-align: center;
+	font-family: "Oswald";
+	margin-top:70px;
+	padding: 50px;
+	/*background: rgba(0,0,0,0.4);*/
+}
+.my-jumbotron h3{
+	text-shadow:0 0 5px #000;
+}
+.my-jumbotron p{
+	font-size: 20px;
+	line-height: 0.9;
+}
+.site-timer{
+	padding-top:50px;
+	padding-bottom:50px;
+	background: rgb(240,240,240);
+}
+.bold{
+	font-weight: bolder;
+}
+.timer{
+	line-height : 80px;
+}
+.timer{
+	font-size: 28px;
+	font-weight: lighter;
+}
+.text-center{
+	text-align: center;
+}
+hr{
+	border: 0;
+	border-top: 1px solid rgb(237, 87, 136);
+	width:70px;
+}
+.card-service .card-title{
+	font-size: 18px;
+	font-weight: bolder;
+}
+.join-email{
+	color:white;
+	border-color:white !important;
+}
+.join-email:focus{
+	color:white;
+	border-color:rgb(232, 88, 137) !important;
+	box-shadow: 0 1px 0 0 rgb(232, 88, 137) !important;
+}
+.join-email-label{
+	color: white !important;
+}
+.join-email-label.active{
+	color:rgb(232, 88, 137) !important;
+}
+#gmap_canvas img{
+	max-width:none!important;
+	background:none!important
+}
